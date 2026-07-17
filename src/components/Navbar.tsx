@@ -39,11 +39,25 @@ export function Navbar() {
           aria-label="Primary"
         >
           <a href="#top" className="group flex items-center gap-2.5 shrink-0">
-            <img
-              src="/logo.webp"
-              alt="APTA-G Scientific"
-              className="h-8 w-auto"
-            />
+            <span className="relative flex h-8 w-8 items-center justify-center rounded-xl border border-cyan/30 bg-cyan/10">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
+                <path
+                  d="M2 12c3-5 9-5 12 0"
+                  stroke="#3dcec4"
+                  strokeWidth="1.4"
+                  strokeLinecap="round"
+                />
+                <path
+                  d="M2 4c3 5 9 5 12 0"
+                  stroke="#7b74d6"
+                  strokeWidth="1.4"
+                  strokeLinecap="round"
+                />
+              </svg>
+            </span>
+            <span className="font-display text-[13px] font-semibold tracking-[0.12em] text-frost uppercase">
+              APTA-G
+            </span>
           </a>
 
           <ul className="hidden items-center gap-1 md:flex">

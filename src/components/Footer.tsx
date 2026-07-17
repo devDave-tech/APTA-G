@@ -5,11 +5,25 @@ export function Footer() {
         <div className="flex flex-col gap-14 md:flex-row md:items-start md:justify-between">
           <div className="max-w-xs">
             <a href="#top" className="inline-flex items-center gap-2.5">
-              <img
-                src="/logo.webp"
-                alt="APTA-G Scientific"
-                className="h-9 w-auto"
-              />
+              <span className="flex h-9 w-9 items-center justify-center rounded-xl border border-cyan/25 bg-cyan/10">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
+                  <path
+                    d="M2 12c3-5 9-5 12 0"
+                    stroke="#3dcec4"
+                    strokeWidth="1.4"
+                    strokeLinecap="round"
+                  />
+                  <path
+                    d="M2 4c3 5 9 5 12 0"
+                    stroke="#7b74d6"
+                    strokeWidth="1.4"
+                    strokeLinecap="round"
+                  />
+                </svg>
+              </span>
+              <span className="font-display text-sm font-semibold tracking-[0.14em] uppercase text-frost">
+                APTA-G Scientific
+              </span>
             </a>
             <p className="mt-5 text-sm font-light leading-relaxed text-mist">
               Custom DNA and peptide aptamers for research, diagnostics, and therapeutics.
